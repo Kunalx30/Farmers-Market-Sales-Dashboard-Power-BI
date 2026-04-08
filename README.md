@@ -1,133 +1,122 @@
-# 🌾 **Farmers Market Sales Dashboard – Power BI**
+# 🌾 Farmers Market Sales Dashboard – Power BI
 
-This project showcases an interactive Power BI dashboard designed to analyze farmer market sales performance.
-It provides valuable insights into customer demand, product movement, vendor performance, and revenue trends across the agricultural market.
+This project showcases an interactive Power BI dashboard designed to analyze farmers market sales performance.  
+It provides valuable insights into customer demand, product movement, vendor performance, and revenue trends.
 
 ---
 
-## 📊 **Project Overview**
+## 📊 Project Overview
 
 This dashboard helps understand:
 
-* Total Quantity Sold
-* Total Sales Generated
-* Active Vendors
-* Unique Customers
-* Booth distribution
-* Product-wise performance
-* Customer contribution
-* Regional behavior (Zip-based)
-* Vendor-wise Sales & Quantity trends
+- Total Quantity Sold  
+- Total Sales Generated  
+- Active Vendors  
+- Unique Customers  
+- Booth Distribution  
+- Product-wise Performance  
+- Customer Contribution  
+- Regional Behavior (ZIP-based)  
+- Vendor-wise Sales & Quantity Trends  
 
-The aim is to help farmers & market management make informed decisions.
-
----
-
-## 🧾 **Dashboard Pages Included**
-
-* **Quantity Wise Analysis**
-* **Sales Wise Analysis**
-* **Duplicate of Sales Analysis**
+The goal is to help farmers and market management make data-driven decisions.
 
 ---
 
-## 📌 **Key Insights Identified**
+## 🧾 Dashboard Pages Included
+
+- Quantity Wise Analysis  
+- Sales Wise Analysis  
+- Sales Performance Analysis  
+
+---
+
+## 📌 Key Insights Identified
 
 ### ⭐ Customer Insights
-
-* Large behavior variation between customers
-* Small number of customers drive high sales
-* ZIP **22820** has highest revenue impact
+- High variation in customer purchasing behavior  
+- Small number of customers contribute to major revenue  
+- ZIP **22820** generates the highest sales  
 
 ### ⭐ Product Insights
-
-* Poblano Peppers, Jalapeno, Habanero & Banana Peppers lead in sales & quantity
-* Product performance varies across vendors
+- Poblano, Jalapeno, Habanero, and Banana Peppers lead in sales  
+- Product performance varies across vendors  
 
 ### ⭐ Vendor Insights
-
-* Vendor 7 dominates both quantity & sales
-* Vendor share varies by product category
-
----
-
-## 📁 **Repository Contents**
-
-| File                         | Description               |
-| ---------------------------- | ------------------------- |
-| `Farmer_Sales_analysis.pbix` | Main Power BI dashboard   |
-| `resources.zip`              | All raw CSV dataset files |
-| `README.md`                  | Documentation             |
-| `LICENSE`                    | Open-source license       |
-| `/screenshots`               | Dashboard images          |
+- Vendor 7 dominates sales and quantity  
+- Vendor contribution differs by product category  
 
 ---
 
-## 🗃 **Dataset Included (inside resources.zip)**
+## 📸 Dashboard Preview
 
-Contains:
+### 📊 Sales Analysis
+![Sales Analysis](Images/sales_Wise_Analysis.png)
 
-* booth.csv
-* customer.csv
-* customer_purchases.csv
-* market_date_info.csv
-* product.csv
-* product_category.csv
-* vendor.csv
-* vendor_inventory.csv
-* vendor_booth_assignments.csv
+### 📦 Quantity Analysis
+![Quantity Analysis](Images/Quality_wise_analysis.png)
 
 ---
 
-## 🔧 **Data Cleaning Performed**
+## 📁 Repository Contents
 
-* Removed duplicate entries
-* Unified date formatting
-* Standardized product names
-* Merged lookup categories
-* Created KPI measures
-* Cleaned inconsistent fields
-
----
-
-## 🛠️ **Tools & Techniques Used**
-
-| Tool / Skill      | Purpose                  |
-| ----------------- | ------------------------ |
-| **Power BI**      | Dashboard & BI Reporting |
-| **Power Query**   | Data cleaning            |
-| **DAX**           | KPI Measures             |
-| **Excel/CSV**     | Raw data                 |
-| **Data Modeling** | Relationships setup      |
+| File | Description |
+|------|------------|
+| Farmer_Sales_analysis.pbix | Power BI dashboard |
+| resources.zip | Raw dataset files |
+| Images/ | Dashboard screenshots |
+| README.md | Documentation |
+| LICENSE | License file |
 
 ---
 
-## 🧠 **Skills Applied**
+## 🗃 Dataset Included (inside resources.zip)
 
-* Data Cleaning
-* Data Modeling
-* ETL (Extract Transform Load)
-* DAX Calculations
-* KPI Design
-* Insight Reporting
-* Visualization
-* Business Analytics
-
----
-
-## 📸 **Dashboard Preview**
-
-(You can add your screenshots below this)
-
-Example:
-
-```
-![Dashboard Screenshot](screenshots/...)
-```
+- booth.csv  
+- customer.csv  
+- customer_purchases.csv  
+- market_date_info.csv  
+- product.csv  
+- product_category.csv  
+- vendor.csv  
+- vendor_inventory.csv  
+- vendor_booth_assignments.csv  
 
 ---
 
-## 👨‍💻 **Developed By**
+## 🔧 Data Cleaning Performed
+
+- Removed duplicate entries  
+- Standardized date formats  
+- Cleaned product names  
+- Merged lookup tables  
+- Created KPI measures  
+- Fixed inconsistent values  
+
+---
+
+## 🛠️ Tools & Techniques Used
+
+- Power BI  
+- Power Query  
+- DAX  
+- Excel / CSV  
+- Data Modeling  
+
+---
+
+## 🧠 Skills Applied
+
+- Data Cleaning  
+- Data Modeling  
+- ETL (Extract Transform Load)  
+- KPI Development  
+- Data Visualization  
+- Business Analytics  
+- Insight Generation  
+
+---
+
+## 👨‍💻 Developed By
 
 **Kunal Chandelkar**
-
